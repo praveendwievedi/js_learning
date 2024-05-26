@@ -30,3 +30,10 @@ let time_stamps= Date.now();
 console.log(Math.floor(time_stamps/1000));
 
 /*  use floor here inspite o ceil to get minimum second and will be easy to compare.. */
+
+let my_date_choice=new Date(2034,21);
+
+console.log(my_date_choice.toLocaleString('default',{
+    weekday:"long",
+}));
+/*  that is how we can get the desired answers in the given date.. */
