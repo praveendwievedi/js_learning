@@ -33,4 +33,19 @@ let obj5=Object.assign({},obj1,obj2);// better  method than above
 let obj6={...obj1,...obj2};
 // most used method and clean one using spreaders..
 
+let teenderUsers={
+    id:"123abc",
+    email:"hc@gmail.com",
+    isLogged: false
+}
+
+console.log(Object.keys(teenderUsers));
+// array of keys..
+console.log(Object.values(teenderUsers));
+// array of values
+console.log(Object.entries(teenderUsers));
+// array of all entries in the passed object..
+
+// these logs will show us that evety key and values are stored in arrays anf can be accessed using indexes..
+
 
