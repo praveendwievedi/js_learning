@@ -19,3 +19,12 @@ let uer_info=user_content(2,3);
     
     all the statements after return in a function is non reachable and will never be execute..
 */
+
+function user_log_in(name="Sam") {
+    if(!name){
+        // basially it is checking if the values passed are undefined or not. if undefined then if part will execute.
+    }
+    return `${name} just logged in`;
+}
+// this way of initialised parameter will take sam when nothing will br given  and will rewrite the name when some values get passed..
+console.log(user_log_in());
