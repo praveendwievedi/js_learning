@@ -48,4 +48,32 @@ console.log(Object.entries(teenderUsers));
 
 // these logs will show us that evety key and values are stored in arrays anf can be accessed using indexes..
 
+//+++++++++++++++++++++++++++++++ de-Structuring and JSON +++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+let course={
+    name:"JS",
+    price:"999",
+    courseInstructre:"Me"
+}
+
+console.log(course.courseInstructre);
+// this is normal metthod of accessing the value of course..
+
+let {courseInstructre:instructre}=course;
+/* this is called as destructuring of an object... */
+
+console.log(courseInstructre);
+console.log(instructre);
+// both will return same values as in we just renamed courseInstructre as  instructre...
+
+/*  API(Application Programming Interface) is the of communication between two applicants or softwares having distinct functions...
+
+JSON(JavaScript Object Notation) is the form of get details from an API
+ it syntax as --
+ like an object 
+ {
+
+ }
+ like an array []
+ in this array or object there will be another array or object..
+*/
